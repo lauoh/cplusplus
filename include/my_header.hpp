@@ -3,11 +3,13 @@
 
 #ifndef MY_HEADER_HPP
 #define MY_HEADER_HPP
-double exo1 (double rayon)
+void exo2 (short a, short b)
 {
-	double volume;
-    volume=4/3*3.14*rayon*rayon*rayon;
-    return volume;
+	short y;
+	if (a < b && !a)
+		y = 10;
+	else
+		y = 20;
 }
 
 
