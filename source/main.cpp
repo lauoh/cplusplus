@@ -10,5 +10,6 @@ int main()
 	exo2(0, 10);
 	exo2(20, 10);
 
+
     return 0;
 }
