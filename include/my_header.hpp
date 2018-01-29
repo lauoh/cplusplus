@@ -26,5 +26,16 @@ double exo3(double rayon)
 	volume = 4/3*3.14*rayon*rayon*rayon;
 	return volume;
 }
+double exo4(short c, short d, short e)
+{
+	short maxentier;
+	if (c > d&&c > e)
+		maxentier = c;
+	if (d > c&&d > e)
+		maxentier = d;
+	else
+		maxentier = e;
+	return maxentier;
+}
 #endif // MY_HEADER_HPP
 
