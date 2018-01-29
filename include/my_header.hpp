@@ -37,5 +37,14 @@ double exo4(short c, short d, short e)
 		maxentier = e;
 	return maxentier;
 }
+short exo5(short f)
+{
+	short prix;
+	if (prix > 100)
+		prix = prix - 5 / prix;
+	else
+		prix = prix;
+		return prix;
+}
 #endif // MY_HEADER_HPP
 
