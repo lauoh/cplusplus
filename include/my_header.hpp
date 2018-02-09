@@ -24,13 +24,12 @@ void exo3(void)
 
 unsigned short lancer_de(void);
 
-void exo4()
+int exo4()
 {
 	long b=0;
 	unsigned short a = 0;
 	a = lancer_de();
-	while (b != 1)
-	{
+	
 		if ((a == 2) || (a == 4) || (a == 6))
 			b = b + 1;
 		if (a = 3)
@@ -39,7 +38,20 @@ void exo4()
 			b = 0;
 		else
 			b = b;
+		return b;
+}
+
+void exo5()
+{
+	unsigned short joueur1 = 0;
+	unsigned short joueur2 = 0;
+
+	while (joueur1 < 50 || joueur2 < 50)
+	{
+		 joueur1= exo4();
+		joueur2= exo4();
 	}
+
 }
 
 #endif // MY_HEADER_HPP
