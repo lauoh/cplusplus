@@ -5,46 +5,21 @@
 #define MY_HEADER_HPP
 
 #include <cmath>
+int essayer_code (unsigned short code);
 
-double exo1(double rayon)
+void exo3(void)
 {
-	double aire;
-	aire = 3.14*rayon*rayon;
-	return aire;
+	int test = 0;
+	unsigned short code = 0;
+
+	test = essayer_code(code);
+	while (test == 0)
+	{
+		code += 1;
+		test = essayer_code(code);
+
+	}
 }
 
-void exo2(short a, short b)
-{
-	short y;
-	y = a < b && !a;
-
-}
-
-double exo3(double rayon)
-{
-	double volume;
-	volume = 4/3*3.14*rayon*rayon*rayon;
-	return volume;
-}
-double exo4(short c, short d, short e)
-{
-	short maxentier;
-	if (c > d&&c > e)
-		maxentier = c;
-	if (d > c&&d > e)
-		maxentier = d;
-	else
-		maxentier = e;
-	return maxentier;
-}
-short exo5(short f)
-{
-	short prix;
-	if (prix > 100)
-		prix = prix - 5 / prix;
-	else
-		prix = prix;
-		return prix;
-}
 #endif // MY_HEADER_HPP
 
