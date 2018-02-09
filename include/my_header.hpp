@@ -21,5 +21,26 @@ void exo3(void)
 	}
 }
 
+
+unsigned short lancer_de(void);
+
+void exo4()
+{
+	long b=0;
+	unsigned short a = 0;
+	a = lancer_de();
+	while (b != 1)
+	{
+		if ((a == 2) || (a == 4) || (a == 6))
+			b = b + 1;
+		if (a = 3)
+			b = b * 2;
+		if (a = 5)
+			b = 0;
+		else
+			b = b;
+	}
+}
+
 #endif // MY_HEADER_HPP
 

@@ -6,5 +6,5 @@
 
 int main()
 {
-	exo3();
+	exo4();
 }
